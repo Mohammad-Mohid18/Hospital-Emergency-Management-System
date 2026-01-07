@@ -1,41 +1,71 @@
-# Prerequisites
-*.d
+# ===============================
+# Compiled binaries & executables
+# ===============================
+*.out
+*.exe
+*.app
+a.out
+gui
+hospital_system
 
-# Compiled Object files
-*.slo
-*.lo
+# ===============================
+# Object & build files
+# ===============================
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.lo
+*.la
+*.a
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+/build/
+/bin/
+/cmake-build-*/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# ===============================
+# CMake files (if used)
+# ===============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
 
-# Executables
-*.exe
-*.out
-*.app
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
 
-# debug information files
-*.dwo
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs & temporary files
+# ===============================
+*.log
+*.tmp
+*.temp
+
+# ===============================
+# GUI / ImGui generated files
+# ===============================
+imgui.ini
+
+# ===============================
+# Local configuration files
+# ===============================
+.env
+
+# ===============================
+# Test output files
+# ===============================
+*.csv
+*.txt
