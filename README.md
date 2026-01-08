@@ -146,5 +146,3 @@ The GUI is strictly separated from business logic, ensuring:
 
 ---
 
-## 📂 Folder Structure
-
